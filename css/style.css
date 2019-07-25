@@ -665,4 +665,10 @@ html {
     margin-left: 91.666667%;
   }
 }
+
+.nav-link a {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */
