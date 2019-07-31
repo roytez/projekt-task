@@ -6,31 +6,169 @@
         <link href="https://fonts.googleapis.com/css?family=Asap:400,600i|Oxygen&display=swap&subset=latin-ext" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="sass/style.css">
     </head>
     <body>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
+        <header class="head">
+            <nav class="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <a class="navbar-brand" href="#">Golden</a>
+                        </div>
+                        <div class="col-8">
+                        <ul>
+                            <li class="f_menu"><a href="#">Home</a>
+                            <li class="f_menu"><a href="#">Services</a></li>
+                            <li class="f_menu"><a href="#">Portfolio</a></li>
+                            <li class="f_menu"><a href="#">About</a></li>
+                            <li class="f_menu"><a href="#">Contact</a></li>
+                        </ul>
+                        </div> 
+                    </div>     
+                </div>
+            </nav> 
+        <section class="splash">
+            <div class="page-intro">
+                    <h2 class="main-title">Welcome to our studio!</h2>
+                    <h1 class="main-subtitle">IT'S NICE TO MEEAT YOU</h1>
+                    <button type="button" class="btn btn-warning">TELL ME MORE</button>
+            </div>
+        </section>    
+        </header>
         
-        <nav class="navigation">
+        <section class="features py-5">
             <div class="container">
+                <h2 class="section-title">Services</h2>
+                <h3 class="section-subtitle">Lorem ipsum dolor sit amet, consectetur.</h3>
                 <div class="row">
-                    <div class="col-4">
-                        <a class="navbar-brand" href="#">Golden</a>
+                    <div class="col-md-4 col-sm-12">
+                        <i class="fas fa-shopping-basket"></i>
+                        <h3 class="feature-title">E-commerce</h3>
+                        <p class="feature-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ligula odio, sagittis nec justo ac, varius hendrerit dolor. Mauris leo est, sodales eget tincidunt eget, pulvinar et eros.</p>
                     </div>
-                    <div class="col-8">
-                    <ul>
-                        <li class="f_menu"><a href="#">Home</a>
-                        <li class="f_menu"><a href="#">Services</a></li>
-                        <li class="f_menu"><a href="#">Portfolio</a></li>
-                        <li class="f_menu"><a href="#">About</a></li>
-                        <li class="f_menu"><a href="#">Contact</a></li>
-                    </ul>
+                    <div class="col-md-4 col-sm-12">
+                        <i class="fas fa-laptop"></i>
+                        <h3 class="feature-title">Responsive Web</h3>
+                        <p class="feature-description">Etiam aliquet molestie arcu id malesuada. Nam in ultrices velit. Sed finibus iaculis ligula et egestas. Proin consequat lectus justo, at imperdiet orci tempus sit amet.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <i class="fas fa-lock"></i>
+                        <h3 class="feature-title">Web Security</h3>
+                        <p class="feature-description">Ut vel efficitur arcu. Maecenas eget sapien lacus. Aliquam ut leo iaculis, suscipit eros eu, posuere ipsum. In libero nisl, condimentum in sem ut, ornare scelerisque urna.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="products py-5 portfolio">
+        <div class="container">
+                    <div class="col-lg-12 col-sm-12">
+                        <h2 class="section-title">OUR PORTFOLIO</h2>
+                        <h3 class="section-subtitle">Lorem ipsum dolor sit amet, consectetur.</h3>
+                        <div class="row mb-5">
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img class="w-100" src="https://i.postimg.cc/RCLvQqDf/4.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Lorem</h5>
+                                        <h6>Aliquam ut leo iaculis</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img class="w-100" src="https://i.postimg.cc/BZC9dks1/5.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Lorem</h5>
+                                        <h6>Aliquam ut leo iaculis</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img class="w-100" src="https://i.postimg.cc/k5MfR1zL/6.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Lorem</h5>
+                                        <h6>Aliquam ut leo iaculis</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="row mb-5">
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img class="w-100" src="https://i.postimg.cc/RCLvQqDf/4.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Lorem</h5>
+                                        <h6>Aliquam ut leo iaculis</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img class="w-100" src="https://i.postimg.cc/BZC9dks1/5.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Lorem</h5>
+                                        <h6>Aliquam ut leo iaculis</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img class="w-100" src="https://i.postimg.cc/k5MfR1zL/6.jpg" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5>Lorem</h5>
+                                        <h6>Aliquam ut leo iaculis</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+        </section>
+        
+        <section class="footer py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-sm-12">
+                        <p>© Copyright 2014 FreebiesXpress.com</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <ul class="icon">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                        </ul>
+                    </div> 
                 </div> 
-            </div>     
-        </div>
-        </nav> 
+            </div>    
+        </section>
  
     </body>
         
+        
+        
+        
+        
+        
+        
+        
+    
