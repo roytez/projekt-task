@@ -95,12 +95,14 @@ section {
   font-size: 48px;
   letter-spacing: 1px;
   padding: 0 24px;
+  font-style: italic;
 }
 
 .main-subtitle {
   margin: 24px 0 60px 0;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 80px;
+  font-weight: bold;
 }
 
 .btn {
@@ -118,6 +120,7 @@ section {
   border-style: solid;
   background-position: 100% 0;
   transition: all 1s;
+  color: white;
 }
 
 /* Services */
